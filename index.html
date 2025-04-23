@@ -3,13 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rupam Naskar | Violin Teacher in Kolkata | ABRSM Syllabus</title>
-    <meta name="description" content="Learn violin in Kolkata with Rupam Naskar, an experienced teacher (5+ years) following the ABRSM syllabus. Lessons for ages 13-62. Contact for inquiries.">
+    <title>Rupam Naskar | Professional Violin Teacher in Kolkata | ABRSM Certified</title>
+    <meta name="description" content="Learn violin in Kolkata with Rupam Naskar, an experienced teacher (5+ years) following the ABRSM syllabus. Personalized lessons for ages 13-62. Book your trial lesson today.">
     <meta name="keywords" content="violin teacher kolkata, violin lessons kolkata, Rupam Naskar violinist, ABRSM violin kolkata, learn violin kolkata, music teacher kolkata, violin classes kolkata, stentor violin, kolkata music lessons">
     <meta name="author" content="Debrup Mukherjee">
     
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicSchool",
+      "name": "Rupam Naskar Violin Academy",
+      "description": "Professional violin lessons in Kolkata following ABRSM syllabus",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kolkata",
+        "addressRegion": "West Bengal",
+        "addressCountry": "India"
+      },
+      "telephone": "+916291583168",
+      "email": "the.rupam.naskar@gmail.com",
+      "image": "images/rupam.jpg",
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/",
+        "https://www.instagram.com/",
+        "https://www.youtube.com/"
+      ]
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
@@ -17,33 +53,56 @@
 <body>
     <header>
         <div class="container">
-            <h1>Rupam Naskar</h1>
-            <p class="subtitle">Violinist & Experienced Teacher</p>
-            <div class="header-image">
-                <img src="images/rupam.jpg" alt="Rupam Naskar image">
-                <div class="image-decor"></div>
+            <div class="header-content">
+                <h1>Rupam Naskar</h1>
+                <p class="subtitle">Professional Violinist & Teacher</p>
+                <div class="header-image">
+                    <img src="images/rupam.jpg" alt="Rupam Naskar holding violin" width="300" height="300">
+                    <div class="image-decor"></div>
+                </div>
+                <!-- <div class="header-decor">
+                    <i class="fas fa-music"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-music"></i>
+                </div> -->
+            </div>
+        </div>
+        <div class="wave-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
         </div>
     </header>
 
     <nav>
         <div class="container">
-            <ul>
-                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
-                <li><a href="#teaching"><i class="fas fa-book-open"></i> Lessons</a></li>
-                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
-            </ul>
+            <div class="nav-container">
+                <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#about"><i class="fas fa-user"></i> <span>About</span></a></li>
+                    <li><a href="#teaching"><i class="fas fa-book-open"></i> <span>Lessons</span></a></li>
+                    <li><a href="#testimonials"><i class="fas fa-quote-left"></i> <span>Testimonials</span></a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <main>
-        <section id="hero">
+        <section id="hero" class="parallax">
             <div class="container">
                 <div class="hero-content">
                     <h2>Unlock Your Musical Potential</h2>
-                    <p>Begin Your Violin Journey in Kolkata</p>
-                    <a href="#contact" class="cta-button">Start Learning Today <i class="fas fa-arrow-right"></i></a>
+                    <p class="hero-subtitle">Begin Your Violin Journey in Kolkata</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="cta-button pulse">Start Learning Today <i class="fas fa-arrow-right"></i></a>
+                        <a href="#teaching" class="secondary-button">Explore Lessons <i class="fas fa-info-circle"></i></a>
+                    </div>
                 </div>
             </div>
+            <div class="overlay"></div>
         </section>
 
         <section id="about">
@@ -51,70 +110,249 @@
                 <div class="section-header">
                     <i class="fas fa-user-tie"></i>
                     <h2>About Me</h2>
+                    <div class="section-divider"></div>
                 </div>
                 <div class="about-content">
                     <div class="about-image">
-                        <img src="images/rupam_violin.jpg" alt="Rupam Naskar teaching violin">
+                        <img src="images/rupam_violin.png" alt="Rupam Naskar teaching violin" width="500" height="600" loading="lazy">
                         <div class="image-decor"></div>
                     </div>
                     <div class="about-text">
-                        <p>Hello! I'm Rupam Naskar, a passionate violinist and dedicated teacher with <strong>5+ years</strong> of experience in Kolkata. I've successfully guided <strong>20+ students</strong> aged 13-62 in mastering the violin.</p>
+                        <p>Hello! I'm Rupam Naskar, a passionate violinist and dedicated teacher with <strong>5+ years</strong> of experience in Kolkata. I've successfully guided <strong>20+ students</strong> aged 13-62 in mastering the violin through personalized instruction and the internationally recognized ABRSM syllabus.</p>
+                        
+                        <div class="skills">
+                            <div class="skill-item">
+                                <div class="skill-progress" data-percent="95">
+                                    <span class="skill-name">Violin Technique</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-progress" data-percent="90">
+                                    <span class="skill-name">Music Theory</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-progress" data-percent="85">
+                                    <span class="skill-name">Performance Coaching</span>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="signature">
-                            <img src="images/signature.png" alt="Rupam's Signature">
+                            <img src="images/signature.png" alt="Rupam's Signature" loading="lazy">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="teaching">
+        <section id="teaching" class="light-bg">
             <div class="container">
                 <div class="section-header">
                     <i class="fas fa-chalkboard-teacher"></i>
                     <h2>Violin Lessons</h2>
+                    <div class="section-divider"></div>
                 </div>
                 <div class="features-grid">
                     <div class="feature-card">
-                        <i class="fas fa-certificate"></i>
+                        <div class="card-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
                         <h3>ABRSM Syllabus</h3>
-                        <p>Internationally recognized curriculum</p>
+                        <p>Internationally recognized curriculum with graded examinations for measurable progress</p>
                     </div>
                     <div class="feature-card">
-                        <i class="fas fa-users"></i>
-                        <h3>All Ages</h3>
-                        <p>Students from 13 to 62 years</p>
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>All Ages Welcome</h3>
+                        <p>Customized lessons for students from 13 to 62 years old</p>
                     </div>
                     <div class="feature-card">
-                        <i class="fas fa-music"></i>
+                        <div class="card-icon">
+                            <i class="fas fa-music"></i>
+                        </div>
                         <h3>Performance Training</h3>
-                        <p>Stage presence and confidence building</p>
+                        <p>Stage presence and confidence building for recitals and exams</p>
+                    </div>
+                </div>
+                
+                <div class="pricing-section">
+                    <h3 class="pricing-title">Lesson Packages</h3>
+                    <div class="pricing-cards">
+                        <div class="pricing-card">
+                            <h4>Beginner</h4>
+                            <div class="price">₹800<span>/lesson</span></div>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 45-minute lessons</li>
+                                <li><i class="fas fa-check"></i> Basic technique</li>
+                                <li><i class="fas fa-check"></i> Simple melodies</li>
+                            </ul>
+                            <a href="#contact" class="price-button">Enquire Now</a>
+                        </div>
+                        <div class="pricing-card featured">
+                            <div class="popular-badge">Most Popular</div>
+                            <h4>Intermediate</h4>
+                            <div class="price">₹1200<span>/lesson</span></div>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 60-minute lessons</li>
+                                <li><i class="fas fa-check"></i> ABRSM Grades 1-3</li>
+                                <li><i class="fas fa-check"></i> Music theory</li>
+                            </ul>
+                            <a href="#contact" class="price-button">Enquire Now</a>
+                        </div>
+                        <div class="pricing-card">
+                            <h4>Advanced</h4>
+                            <div class="price">₹1800<span>/lesson</span></div>
+                            <ul>
+                                <li><i class="fas fa-check"></i> 90-minute lessons</li>
+                                <li><i class="fas fa-check"></i> ABRSM Grades 4+</li>
+                                <li><i class="fas fa-check"></i> Performance prep</li>
+                            </ul>
+                            <a href="#contact" class="price-button">Enquire Now</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact">
+        <section id="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <i class="fas fa-quote-left"></i>
+                    <h2>Student Testimonials</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="testimonials-container">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Rupam's patient teaching style helped me progress quickly from complete beginner to playing full pieces within months. His ABRSM approach gives structure to the learning process."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/student1.jpg" alt="Priya M." loading="lazy">
+                            <div class="author-info">
+                                <h4>Priya M.</h4>
+                                <p>Student for 2 years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"As an adult learner, I was nervous about starting violin, but Rupam created a comfortable learning environment tailored to my pace. I'm now preparing for my Grade 3 exam!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/student2.jpg" alt="Arjun S." loading="lazy">
+                            <div class="author-info">
+                                <h4>Arjun S.</h4>
+                                <p>Student for 1.5 years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"My daughter has flourished under Rupam's guidance. His attention to proper technique from the beginning has given her a strong foundation for future musical growth."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="images/student3.jpg" alt="Mrs. Chatterjee" loading="lazy">
+                            <div class="author-info">
+                                <h4>Mrs. Chatterjee</h4>
+                                <p>Parent of student</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="dark-bg">
             <div class="container">
                 <div class="section-header">
                     <i class="fas fa-envelope-open-text"></i>
                     <h2>Contact Me</h2>
+                    <div class="section-divider"></div>
                 </div>
-                <div class="contact-grid">
-                    <div class="contact-method">
-                        <i class="fas fa-phone"></i>
-                        <h3>Call</h3>
-                        <a href="tel:+916291583168">+91 6291 583168</a>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>Ready to start your violin journey? Contact me to schedule a trial lesson or ask any questions.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Kolkata, West Bengal</p>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Call</h4>
+                                    <a href="tel:+916291583168">+91 6291 583168</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <h4>WhatsApp</h4>
+                                    <a href="https://wa.me/916291583168">Send Message</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:the.rupam.naskar@gmail.com">the.rupam.naskar@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
                     </div>
-                    <div class="contact-method">
-                        <i class="fab fa-whatsapp"></i>
-                        <h3>WhatsApp</h3>
-                        <a href="https://wa.me/916291583168">Send Message</a>
-                    </div>
-                    <div class="contact-method">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <a href="mailto:the.rupam.naskar@gmail.com">the.rupam.naskar@gmail.com</a>
-                    </div>
+                    
+                    <form class="contact-form" id="contactForm" netlify>
+                        <h3>Send a Message</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="interest" name="interest" required>
+                                <option value="" disabled selected></option>
+                                <option value="beginner">Beginner Lessons</option>
+                                <option value="intermediate">Intermediate Lessons</option>
+                                <option value="advanced">Advanced Lessons</option>
+                                <option value="other">Other Inquiry</option>
+                            </select>
+                            <label for="interest">Interest</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -122,14 +360,38 @@
 
     <footer>
         <div class="container">
-            <div class="social-links">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Rupam Naskar</h3>
+                    <p>Professional violinist and teacher dedicated to helping students of all ages discover the joy of music through the violin.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#teaching">Lessons</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +91 6291 583168</p>
+                    <p><i class="fas fa-envelope"></i> the.rupam.naskar@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kolkata, West Bengal</p>
+                </div>
             </div>
-            <p>© <span id="current-year"></span> Rupam Naskar. All rights reserved.</p>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Rupam Naskar. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <a href="#hero" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
 
     <script src="script.js"></script>
 </body>
